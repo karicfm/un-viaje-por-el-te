@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!--Datos principales de la pagina-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Karina Castillo">
+    <meta name="description" content="Un recorrido por la historia, variedades, culturas y formas de preparación del té.">
+    <meta name="keywords" content="té, historia del té, té verde, té negro, ceremonias, preparación">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#A3B49A">
+    <meta name="application-name" content="Un viaje por el mundo del té">
+
+    <!--Información para compartir la página-->
+    <meta property="og:title" content="Un viaje por el mundo del té">
+    <meta property="og:description" content="Descubrí la historia, las variedades y las tradiciones del té.">
+
+    <title>Un viaje por el mundo del té</title>
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="icon" href="imagenes/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+  <header class="encabezado" id="inicio">
+
+    <div class="barra-superior contenedor">
+
+      <a class="marca" href="#presentacion">
+        <span class="marca-icono">✳</span> hojas &amp; momentos
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul class="menu">
+          <li><a href="#introduccion">Inicio</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#variedades">Variedades</a></li>
+          <li><a href="#culturas">Culturas</a></li>
+          <li><a href="#paises">Paises</a></li>
+          <li><a href="#blends">Blends</a></li>
+          <li><a href="#preparacion">Preparación</a></li>
+          <li><a href="#bienestar">Bienestar</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a class="enlace-contacto" href="#contacto">Contacto</a></li>
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!--PORTADA-->
+
+    <section class="portada contenedor" id="presentacion">
+
+      <div class="portada-texto">
+
+        <p class="sobretitulo">Una pausa en el camino</p>
+
+        <h1>Un viaje por<br>el mundo del té</h1>
+
+        <p class="bajada">
+          Historias que se infusionan, culturas que se encuentran 
+          y pequeños rituales para disfrutar sin apuro.
+        </p>
+
+        <a class="boton boton-oscuro" href="#introduccion">Comenzar el recorrido</a>
+
+      </div>
+
+      <div class="portada-ilustracion" role="img" 
+      aria-label="Ilustración decorativa de una taza de té y hojas">
+
+        <div class="circulo-portada"></div>
+        <div class="hoja hoja-una"></div>
+        <div class="hoja hoja-dos"></div>
+
+        <div class="taza">
+          <div class="asa"></div>
+          <div class="liquido"></div>
+        </div>
+          
+          <span class="texto-ilustracion">tea time</span>
+
+      </div>
+
+      <a class="bajar" href="#introduccion" aria-label="Bajar a la introducción">↓</a>
+
+    </section>
+
+
+    <!-- 1. Introducción -->
+
+    <section class="seccion introduccion" id="introduccion">
+
+      <div class="contenedor dos-columnas">
+
+        <div><p class="sobretitulo">Más que una bebida</p><h2>Una historia en cada taza</h2></div>
+
+        <div class="texto-destacado">
+
+          <p>El té acompaña a distintas sociedades desde hace siglos. Su aroma y su sabor forman parte de encuentros, tradiciones y momentos cotidianos en todo el mundo.</p>
+
+          <p>Este espacio propone un recorrido por sus orígenes, sus variedades, las culturas que lo hicieron propio y las distintas maneras de prepararlo y disfrutarlo.</p>
+
+          <div class="busqueda">
+
+            <label for="buscar">¿Qué tema querés explorar?</label>
+
+            <input type="search" id="buscar" placeholder="Por ejemplo: té verde">
+
+            <p id="resultadoBusqueda" aria-live="polite">Escribí una palabra para buscarla en el sitio.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 2. Historia -->
+
+    <section class="seccion fondo-claro" id="historia">
+
+      <div class="contenedor">
+
+        <div class="encabezado-seccion"><p class="sobretitulo">01 · Los orígenes</p><h2>Una historia milenaria</h2><p>Del antiguo Oriente a las mesas de todo el mundo.</p></div>
+
+        <div class="historia-contenido">
+
+          <div class="bloque-numero">01</div>
+
+          <div><h3>De China al mundo</h3>
+
+            <p>El origen del té se sitúa en China. Una antigua leyenda atribuye su descubrimiento al emperador Shen Nong, aunque no existe evidencia histórica que permita confirmar ese relato. Con el paso del tiempo, el consumo de té se integró a la vida cotidiana y cultural de distintas regiones chinas.</p>
+
+            <p>Su circulación por rutas comerciales favoreció su llegada a otros territorios de Asia y, posteriormente, a Europa. En cada lugar fue adoptado y transformado, dando origen a costumbres y formas de preparación propias.</p>
+
+          </div>
+
+          <aside class="dato-lateral"><span class="dato-simbolo">茶</span><p>En chino, el carácter 茶 representa la palabra té.</p></aside>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 3. Variedades -->
+    <section class="seccion" id="variedades">
+
+      <div class="contenedor">
+
+        <div class="encabezado-seccion centrado"><p class="sobretitulo">02 · La planta</p><h2>Un origen, muchos sabores</h2><p>Los tés tradicionales provienen de la planta <em>Camellia sinensis</em>. Su procesamiento da lugar a perfiles muy diferentes.</p></div>
+
+        <div class="tarjetas-variedades">
+
+          <article class="tarjeta variedad-verde"><span class="numero-tarjeta">01</span><h3>Té verde</h3><p>Se procesa para evitar una oxidación significativa. Puede ofrecer notas vegetales, frescas y delicadas.</p></article>
+
+          <article class="tarjeta variedad-negro"><span class="numero-tarjeta">02</span><h3>Té negro</h3><p>Presenta una oxidación elevada y suele desarrollar un sabor intenso, con aromas maltosos o frutales.</p></article>
+
+          <article class="tarjeta variedad-blanco"><span class="numero-tarjeta">03</span><h3>Té blanco</h3><p>Se elabora con brotes y hojas jóvenes. Su procesamiento suele ser mínimo y su perfil, sutil.</p></article>
+
+          <article class="tarjeta variedad-oolong"><span class="numero-tarjeta">04</span><h3>Oolong</h3><p>Su grado de oxidación se encuentra entre el té verde y el negro. Puede tener notas florales o tostadas.</p></article>
+
+          <article class="tarjeta variedad-puerh"><span class="numero-tarjeta">05</span><h3>Pu-erh</h3><p>Originario de China, puede atravesar procesos de fermentación y añejamiento que aportan sabores profundos.</p></article>
+
+        </div>
+
+        <p class="nota">Nota: las infusiones de hierbas, frutas o flores no provienen necesariamente de Camellia sinensis; técnicamente se conocen como tisanas.</p>
+
+      </div>
+
+    </section>
+
+    <!-- 4. Culturas -->
+
+    <section class="seccion fondo-verde" id="culturas">
+
+      <div class="contenedor">
+
+        <div class="encabezado-seccion"><p class="sobretitulo">03 · Costumbres</p><h2>El té en distintas culturas</h2><p>Una misma bebida puede expresar tradiciones muy diferentes.</p></div>
+
+        <div class="lista-culturas">
+
+          <article class="cultura"><span class="cultura-letra">日</span><h3>Japón · Chanoyu</h3><p>La ceremonia japonesa del té se centra especialmente en la preparación y el servicio del matcha. Sus gestos y utensilios expresan atención, respeto y armonía.</p></article>
+
+          <article class="cultura"><span class="cultura-letra">中</span><h3>China · Gongfu cha</h3><p>Esta forma tradicional de preparar té presta atención a la cantidad de hojas, la temperatura del agua y las infusiones sucesivas para apreciar sus matices.</p></article>
+
+          <article class="cultura"><span class="cultura-letra">UK</span><h3>Reino Unido · Afternoon tea</h3><p>La hora del té se convirtió en una costumbre social que suele acompañarse con pequeños bocados dulces o salados y un momento de conversación.</p></article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 5. Países productores -->
+
+    <section class="seccion" id="paises">
+
+      <div class="contenedor dos-columnas">
+
+        <div><p class="sobretitulo">04 · Geografía del té</p><h2>Territorios que cultivan tradición</h2><p>El clima, la altitud, las lluvias y el suelo influyen en el desarrollo de la planta y en las características de las hojas.</p></div>
+
+        <div class="paises-lista">
+
+          <article><span>01</span><div><h3>China</h3><p>Gran diversidad de tés verdes, blancos, negros, oolong y pu-erh.</p></div></article>
+
+          <article><span>02</span><div><h3>India</h3><p>Regiones reconocidas como Assam y Darjeeling.</p></div></article>
+
+          <article><span>03</span><div><h3>Japón</h3><p>Tradición destacada en tés verdes como sencha y matcha.</p></div></article>
+
+          <article><span>04</span><div><h3>Sri Lanka</h3><p>Conocido internacionalmente por el té de Ceilán.</p></div></article>
+
+          <article><span>05</span><div><h3>Argentina</h3><p>La producción se concentra principalmente en Misiones y Corrientes.</p></div></article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 6. Blends -->
+
+    <section class="seccion fondo-claro" id="blends">
+
+      <div class="contenedor">
+
+        <div class="encabezado-seccion centrado"><p class="sobretitulo">05 · Mezclas</p><h2>Blends: creatividad en una taza</h2><p>Un blend combina distintos tés o suma ingredientes como frutas, flores y especias.</p></div>
+
+        <div class="blends-grid">
+
+          <article class="blend"><span class="blend-icono">✿</span><h3>Earl Grey</h3><p>Té negro aromatizado con bergamota, una fruta cítrica de aroma característico.</p></article>
+
+          <article class="blend"><span class="blend-icono">✺</span><h3>Masala chai</h3><p>Preparación de origen indio que combina té negro con especias como canela, cardamomo y jengibre.</p></article>
+
+          <article class="blend"><span class="blend-icono">❀</span><h3>Mezclas florales</h3><p>Combinaciones que pueden incluir jazmín, rosas o lavanda para aportar aromas delicados.</p></article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 7. Preparación -->
+
+    <section class="seccion" id="preparacion">
+
+      <div class="contenedor">
+
+        <div class="encabezado-seccion"><p class="sobretitulo">06 · En casa</p><h2>El arte de preparar una taza</h2><p>Pequeños detalles ayudan a disfrutar mejor cada variedad.</p></div>
+
+        <ol class="pasos">
+
+          <li><span>1</span><div><h3>Elegí el té</h3><p>Seleccioná las hojas o la mezcla que quieras preparar.</p></div></li>
+
+          <li><span>2</span><div><h3>Calentá el agua</h3><p>La temperatura adecuada depende de la variedad elegida.</p></div></li>
+
+          <li><span>3</span><div><h3>Medí las hojas</h3><p>Usá la cantidad recomendada para la taza o tetera.</p></div></li>
+
+          <li><span>4</span><div><h3>Respetá la infusión</h3><p>Controlá el tiempo para evitar sabores demasiado intensos o amargos.</p></div></li>
+
+          <li><span>5</span><div><h3>Serví y disfrutá</h3><p>Retirá las hojas y descubrí los aromas de tu preparación.</p></div></li>
+
+        </ol>
+
+      </div>
+
+    </section>
+
+    <!-- 8. Bienestar -->
+
+    <section class="seccion cita-seccion" id="bienestar">
+
+      <div class="contenedor cita-contenido">
+        <p class="sobretitulo">07 · Una pausa</p>
+
+        <h2>El té y el bienestar</h2>
+
+        <blockquote>“A veces, todo lo que necesitamos es agua caliente, hojas de té y un momento para nosotros.”</blockquote>
+        
+        <p>El té puede formar parte de una rutina de descanso y encuentro. Algunas variedades contienen cafeína; su cantidad depende del tipo de té y de cómo se prepare. Disfrutarlo también es una forma de conectar con pequeños momentos cotidianos.</p>
+      </div>
+
+    </section>
+
+    <!-- 9. Galería -->
+     
+    <section class="seccion" id="galeria">
+
+      <div class="contenedor">
+
+        <div class="encabezado-seccion centrado"><p class="sobretitulo">08 · Inspiración</p><h2>Pequeños paisajes del té</h2><p>Colores, texturas y elementos que forman parte de este universo.</p></div>
+
+        <div class="galeria">
+
+        <figure class="galeria-item galeria-plantacion">
+          <img src="imagenes/Plantaciones-té.jpg" alt="Plantaciones de té">
+          <figcaption>El origen: las plantaciones</figcaption>
+        </figure>
+
+        <figure class="galeria-item galeria-hojas">
+          <img src="imagenes/Hojas-de-te.jpg" alt="Hojas de té">
+          <figcaption>La naturaleza: las hojas</figcaption>
+        </figure>
+
+        <figure class="galeria-item galeria-ceremonia">
+          <img src="imagenes/ceremonia-del-te.jpg" alt="Ceremonia de té">
+          <figcaption>La tradición: los rituales</figcaption>
+        </figure>
+
+        <figure class="galeria-item galeria-tetera">
+          <img src="imagenes/Tetera.jpg" alt="Tetera para preparar té">
+          <figcaption>El encuentro: una tetera</figcaption>
+        </figure>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 10. Contacto -->
+    <section class="seccion fondo-verde" id="contacto">
+
+      <div class="contenedor contacto-contenido">
+
+        <div><p class="sobretitulo">09 · Sigamos conversando</p><h2>¿Qué té te gustaría descubrir?</h2><p>Dejanos un mensaje, una consulta o una sugerencia para seguir explorando este mundo.</p><p class="aclaracion-formulario">Este formulario es demostrativo: valida los datos y muestra una confirmación en pantalla, pero no envía correos.</p></div>
+
+        <form id="formContacto" class="formulario">
+
+          <div class="campo"><label for="nombre">Nombre</label><input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required></div>
+
+          <div class="campo"><label for="correo">Correo electrónico</label><input type="email" id="correo" name="correo" placeholder="nombre@ejemplo.com" required></div>
+
+          <div class="campo"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos qué te gustaría conocer..." required></textarea></div>
+
+          <button class="boton boton-oscuro" type="submit">Enviar mensaje</button>
+
+          <p id="respuestaContacto" class="respuesta" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="pie">
+
+    <!--PIE DE PAGINA-->
+
+    <div class="contenedor pie-contenido">
+      <a class="marca marca-pie" href="#inicio">
+        <span class="marca-icono">✳</span> hojas &amp; momentos</a><p>Un viaje por el mundo del té · Historias para disfrutar sin apuro.</p><p>Última actualización: <span id="fechaActualizacion"></span>
+        </p>
+      </div>
+
+  </footer>
+
+  <button id="btnVolverArriba" class="volver-arriba" 
+  type="button" aria-label="Volver al inicio">↑</button>
+
+</body>
+
+</html>
